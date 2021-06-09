@@ -1,0 +1,58 @@
+.header {
+    background-color: #11b34eba;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    
+}
+
+body {
+    margin: 0;  
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.navigation-1 {
+    background-color: darkseagreen;
+
+}
+a {
+    color: #434548f2;
+}
+
+.bg-image {
+    background-image: url("florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+    filter: blur(8px);
+    background-color: #b60b8b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(232, 234, 243);
+    font-weight: bold;
+    border: 3px solid #40e2a4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-wrap {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card {
+    margin: 20px;
+}
